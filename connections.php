@@ -55,15 +55,15 @@ if (!isset($_SESSION['logged_in']) || !$_SESSION['logged_in']) {
     <!-- Video background -->
     <div class="video-container">
         <video autoplay muted loop>
-            <source src="C:\Users\darvini_korrapati\Downloads\darksmoke.mp4" type="video/mp4">
+            <source src="" type="video/mp4"> <! add a backgroung image or video-->
             Your browser does not support the video tag.
         </video>
     </div>
 
     <!-- Gallery section -->
-    <div class="gallery">
+    <div class="gallery">         <! below given are the sample names of the known colleges and institutes-->
         <figure class="card" onclick="redirectToPage('iit_chennai.html')">
-            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/69/IIT_Madras_Logo.svg/1200px-IIT_Madras_Logo.svg.png" alt="IIT Chennai">
+            <img src="" alt="IIT Chennai">
         </figure>
         <figure class="card" onclick="redirectToPage('iit_kharagpur.html')">
             <img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/IIT_Kharagpur_Logo.svg/1200px-IIT_Kharagpur_Logo.svg.png" alt="IIT Kharagpur">
